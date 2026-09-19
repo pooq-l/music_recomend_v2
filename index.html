@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:url" content="https://pooq-l.github.io/assessment/assessment.html">
+  <meta property="og:title" content="オススメの曲診断">
+  <meta property="og:description" content="気分に合わせたおすすめの曲を診断するサイトです。">
+  <link rel="stylesheet" href="assessment.css">
+  <title>オススメの曲診断</title>
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <h1>୨୧⋅₊˚.🎀 オススメの曲診断 🎀.˚₊⋅୨୧</h1>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main class="container">
+    <!-- 名前入力エリア -->
+    <p>診断したい人の名前を入れてネ ^3^</p>
+    <div>
+      <input type="text" id="user-name" size="40" maxlength="20">
+    </div>
+
+    <!-- 気分選択エリア -->
+    <p>今のキブンは？</p>
+    <div class="mood-buttons">
+      <button type="button" class="mood-btn active" data-mood="fun">楽しい</button>
+      <button type="button" class="mood-btn" data-mood="dance">踊りたい</button>
+      <button type="button" class="mood-btn" data-mood="cry">泣きたい</button>
+      <button type="button" class="mood-btn" data-mood="pain">苦しい</button>
+    </div>
+
+    <!-- 診断ボタン -->
+    <div>
+      <button type="button" id="assessment">診断する</button>
+    </div>
+
+    <!-- 診断結果表示エリア -->
+    <div id="result-area"></div>
+
+    <!-- ツイートエリア -->
+    <div id="tweet-area"></div>
+  </main>
+
+  <script src="assessment.js"></script>
+</body>
+</html>
