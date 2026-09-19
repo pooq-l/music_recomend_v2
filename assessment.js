@@ -97,12 +97,11 @@ assessmentButton.addEventListener(
   }
 );
 
-// Enter キーで診断する処理を追加
 userNameInput.addEventListener(
   'keydown',
   event => {
-    if (event.code === 'Enter') {
-      assessmentButton.dispatchEvent(new Event('click'));
+    if (event.code === 'Enter' && !event.isComposing) {
+      assessmentButton.click();
     }
   }
 );
@@ -200,6 +199,3 @@ function assessment(userName, mood) {
   const index = sumOfCharCode % targetSongs.length;
   return targetSongs[index];
 }
-
-
-test();
