@@ -201,7 +201,7 @@ const songList = {
     { title: 'Money',
       embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/money/1065973699?i=1065973708"></iframe>'
     },
-    { title: 'Can't Buy Me Love',
+    { title: "Can't Buy Me Love",
       embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%88-%E3%83%90%E3%82%A4-%E3%83%9F%E3%83%BC-%E3%83%A9%E3%83%B4-2009-remaster/1441164416?i=1441164423"></iframe>'
     },
     { title: '借金大王',
