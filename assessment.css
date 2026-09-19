@@ -50,13 +50,16 @@ input[type="text"] {
   height: 44px;
   margin-bottom: 32px;
   padding: 0 12px;
-  width: 360px;
+  width: 100％;
+  max-width: 360px;
 }
 
 /* 気分選択ボタングループ */
+/* 既存の .mood-buttons に flex-wrap を足す */
 .mood-buttons {
   display: flex;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 12px;
   margin-bottom: 32px;
 }
 
@@ -153,4 +156,13 @@ input[type="text"] {
 /* ツイートボタンエリア */
 #tweet-area {
   margin-top: 20px;
+}
+
+/* 一番下に追加 */
+@media (max-width: 720px) {
+  header h1 { font-size: 1.1rem; }
+  .result-wrapper { flex-direction: column; }
+  .result-card,
+  .album-card { width: 100%; }
+  .mood-btn { min-width: 0; flex: 1 1 40%; }
 }
