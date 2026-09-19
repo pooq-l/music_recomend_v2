@@ -176,6 +176,40 @@ const songList = {
     { title: '蝋人形の館',
      embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/%E8%9D%8B%E4%BA%BA%E5%BD%A2%E3%81%AE%E9%A4%A8/1536773201?i=1536773207"></iframe>'
     }
+  ],
+    love: [
+    { title: 'ロマンチシズム',
+      embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/%E3%83%AD%E3%83%9E%E3%83%B3%E3%83%81%E3%82%B7%E3%82%BA%E3%83%A0/1475232910?i=1475233722"></iframe>'
+    },
+    { title: 'OKKAKE',
+      embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/okkake/1436147707?i=1436147862"></iframe>'
+    },
+    { title: '幸せ',
+      embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/%E5%B9%B8%E3%81%9B/1451567916?i=1451567933"></iframe>'
+    },
+    { title: 'ビンテージ',
+      embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/%E3%83%93%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B8/1479397582?i=1479397865"></iframe>'
+    },
+    { title: 'ずっとラブソング',
+     embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/%E3%81%9A%E3%81%A3%E3%81%A8%E3%83%A9%E3%83%96%E3%82%BD%E3%83%B3%E3%82%B0/1833848240?i=1833848244"></iframe>'
+    }
+  ],
+      money: [
+    { title: 'Money, Money, Money',
+      embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/money-money-money/1422648512?i=1422648959"></iframe>'
+    },
+    { title: 'Money',
+      embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/money/1065973699?i=1065973708"></iframe>'
+    },
+    { title: 'Can't Buy Me Love',
+      embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%88-%E3%83%90%E3%82%A4-%E3%83%9F%E3%83%BC-%E3%83%A9%E3%83%B4-2009-remaster/1441164416?i=1441164423"></iframe>'
+    },
+    { title: '借金大王',
+      embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/%E5%80%9F%E9%87%91%E5%A4%A7%E7%8E%8B/1442456229?i=1442456547"></iframe>'
+    },
+    { title: '年貢 for you feat. 旗本ひろし、足軽先生',
+     embed: '<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/%E5%B9%B4%E8%B2%A2-for-you-feat-%E6%97%97%E6%9C%AC%E3%81%B2%E3%82%8D%E3%81%97-%E8%B6%B3%E8%BB%BD%E5%85%88%E7%94%9F/879278591?i=879278599"></iframe>'
+    }
   ]
 };
 
